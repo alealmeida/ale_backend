@@ -79,6 +79,9 @@
       "type": "component",
       "repeatable": true,
       "component": "content.content-with-media"
+    },
+    "bg_color": {
+      "type": "string"
     }
   }
 }
