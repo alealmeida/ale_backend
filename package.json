@@ -17,6 +17,7 @@
     "@strapi/strapi": "4.0.3",
     "pg": "8.6.0",
     "slugify": "^1.6.5",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
     "strapi-utils": "^3.6.8"
   },
   "author": {
@@ -26,7 +27,7 @@
     "uuid": "af6a30c3-faaf-4a47-b0a1-9e28fde8e125"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": "16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
