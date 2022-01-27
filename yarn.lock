@@ -1840,6 +1840,15 @@
     "@strapi/utils" "4.0.3"
     sendmail "^1.6.1"
 
+"@strapi/provider-upload-cloudinary@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.0.5.tgz#28b9b228c97b5716f7ba4d094f9b4338f2fa6075"
+  integrity sha512-7CKX8Dz5G77nUvUGuSGdOzL8dxigzpbdSIu/g+WA0zVlihilQpiEqEQ8QZrS4udugMwuIV86/3y+6qcLapXqcA==
+  dependencies:
+    "@strapi/utils" "4.0.5"
+    cloudinary "^1.25.1"
+    into-stream "^5.1.0"
+
 "@strapi/provider-upload-local@4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-4.0.3.tgz#eab26e589660689bbf8f83c61788d12b2475746e"
@@ -1906,6 +1915,17 @@
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.3.tgz#2b975cb6e333bcfc6e78966bacd47bc07f6791e3"
   integrity sha512-sqB8kJaWebJvVZlkBFcbTlRtpmADBbEC8CR4lvNvLZE4NSdMt3xOvPou9tI0kPm86NE6qwHxc6MJaRaab9h+FQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.24.0"
+    http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.5.tgz#68c346504b5cd0daae15b0ca4eaf23bb19222054"
+  integrity sha512-1/yiKwVRafbieP6R8W414GQlUsYR2BEBPGA0wTcY8abDT+uXr4YqqsAR/u/fQ20Y21sxrL4xJLFpRqny8iVjCA==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
