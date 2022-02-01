@@ -10,9 +10,6 @@
     "content": {
       "type": "richtext"
     },
-    "title": {
-      "type": "string"
-    },
     "main_media": {
       "type": "component",
       "repeatable": false,

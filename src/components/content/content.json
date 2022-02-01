@@ -9,9 +9,6 @@
   "attributes": {
     "content": {
       "type": "richtext"
-    },
-    "title": {
-      "type": "string"
     }
   }
 }
